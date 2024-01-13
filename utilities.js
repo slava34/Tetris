@@ -18,7 +18,7 @@ export const TETROMINOES = {
         [1, 1, 1],
         [0, 0, 0],
     ],
-    '0': [
+    'O': [
         [1, 1],
         [1, 1],
     ],
@@ -38,6 +38,7 @@ export const TETROMINOES = {
         [0, 0, 0],
     ],
 }
+
 
 export function getRandomElement(array) {
     const randomIndex = Math.floor(Math.random() * array.length);
